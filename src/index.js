@@ -94,7 +94,7 @@ class Cooldown {
   }
 
   /**
-   * Expires the cooldown
+   * Expires the cooldown on players
    */
   expire() {
     delete COOLDOWNS[this.player];
